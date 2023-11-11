@@ -67,7 +67,7 @@ button:hover {
 
 .pics-container{
     width: 100%;
-    overflow: hidden; /*範囲超えない
+    overflow: hidden; 
 }
 
 .pics{
