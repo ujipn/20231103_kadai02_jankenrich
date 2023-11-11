@@ -8,7 +8,6 @@ $(document).ready(function() {
     const imageElement = $(".pic");
 
 
-
 $(".select-button").on("click",function(){
     const playerSelect = $(this) .data("value");
 console.log(playerSelect,"ボタン選択")
@@ -162,7 +161,6 @@ console.log(playerSelect,"ボタン選択")
             }
             
         }
-
 
         if (text === "ヒット" || text === "ホームラン" || text === "内野ゴロ") {
             strikeCount = 0;
